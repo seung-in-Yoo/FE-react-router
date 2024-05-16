@@ -31,7 +31,6 @@ const Product = () => {
     const product = data[brandName];
     return (
         <>
-            <h1>Product page</h1>
             {product ? (
                 <div>
                     <h2>Brand: {brandName} </h2>
